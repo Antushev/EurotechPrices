@@ -4,11 +4,16 @@ $basic-white: #ffffff;
 
 /* Colors background */
 
-$background-color: #000;
+$background-color-black: #000000;
+$background-color-white: #fffff;
+$background-color-main: #be1e2d;
+
+$background-button: #be1e2d;
 
 /* Colors text */
 
-$text-content: #ff0000;
+$text-white: #ffffff;
+$text-color-menu: #be1e2d;
 
 /* Colors icon */
 
@@ -20,9 +25,11 @@ $decorative-element: #ff0000;
 
 /* Font-family */
 
-$font-family-main: Tahoma, Arial, sans-serif;
+$font-family-main: "Noto Sans", Arial, sans-serif;
 
 /* Font-size */
+
+$font-size-menu: 36px;
 
 /* Other elements properties */
 

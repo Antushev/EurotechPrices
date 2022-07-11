@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  @include clear-list();
+
+  display: flex;
+
+  font-size: $font-size-menu;
+}
+
+.menu__item {
+  &:not(:last-child) {
+    margin-right: 73px;
+  }
+
+  &--active {
+    text-decoration: underline;
+  }
+}
+
+.menu__link {
+  color: $text-color-menu;
+}
+
+.menu__link-login {
+  font-size: $font-size-menu;
+  font-weight: 700;
+
+  color: $text-color-menu;
+
+  &--exit {
+    font-size: 30px;
+    text-decoration: underline;
+
+    background: none;
+    border: none;
+  }
+}

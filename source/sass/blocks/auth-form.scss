@@ -1,0 +1,17 @@
+.auth-form__inner {
+  display: flex;
+  flex-flow: column;
+}
+
+.auth-form__name {
+  margin-bottom: 15px;
+}
+
+.auth-form__password {
+  margin-bottom: 25px;
+}
+
+.auth-form__button {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
