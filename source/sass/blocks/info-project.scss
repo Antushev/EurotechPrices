@@ -1,0 +1,17 @@
+.info-project__info {
+  &--about {
+    margin-bottom: 40px;
+  }
+
+  &--capabilities {
+    margin-bottom: 40px;
+  }
+}
+
+.info-project__text {
+  text-align: justify;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

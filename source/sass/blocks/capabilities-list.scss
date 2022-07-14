@@ -1,0 +1,22 @@
+.capabilities-list {
+  @include clear-list();
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.capabilities-list__item {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 300px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+  text-align: center;
+  color: #ffffff;
+
+  background-color: $background-color-main;
+}
