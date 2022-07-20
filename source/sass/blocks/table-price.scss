@@ -1,0 +1,42 @@
+.table-price__search-form {
+  margin-right: 15px;
+}
+
+.table-price__filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.table-price__name-label {
+  position: relative;
+}
+
+.table-price__name-input {
+  width: 490px;
+}
+
+.table-price__icon-search {
+  position: absolute;
+  top: 50%; right: 30px;
+
+  width: 25px;
+  height: 25px;
+
+  transform: translateY(-50%);
+}
+
+.table-price__calendar {
+  margin-right: 15px;
+}
+
+.table-price__icon-calendar {
+  width: 40px;
+  height: 45px;
+
+  cursor: pointer;
+}
+
+.table-price__button {
+  margin-left: auto;
+}

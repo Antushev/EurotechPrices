@@ -1,6 +1,27 @@
 .button {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+
   color: $text-white;
 
   background-color: $background-button;
   border: none;
+
+  cursor: pointer;
+
+  &--rounded {
+    border-radius: 10px;
+  }
+
+  &--link {
+    text-decoration: underline;
+
+    background: none;
+  }
+
+  &--blue {
+    color: $text-color-link-price;
+  }
 }
