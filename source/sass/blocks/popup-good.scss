@@ -1,0 +1,43 @@
+.popup-good {
+  position: absolute;
+  top: 300px; left: 50%;
+
+  padding-top: 40px;
+
+  width: 948px;
+  height: auto;
+
+  background-color: #ffffff;
+
+  transform: translateX(-50%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.popup-good__container {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 30px;
+}
+
+.popup-good__button-close {
+  position: absolute;
+  top: 40px; right: 25px;
+}
+
+.popup-good__label {
+  display: block;
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.popup-good__input {
+  width: 100%;
+}
+
+.popup-good__button {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

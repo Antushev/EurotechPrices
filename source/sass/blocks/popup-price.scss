@@ -1,0 +1,166 @@
+.popup-price {
+  position: absolute;
+  top: 50px; left: 50%;
+
+  padding-top: 40px;
+
+  width: 948px;
+  height: auto;
+
+  background-color: #ffffff;
+
+  transform: translateX(-50%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+
+  &--hidden {
+    display: none;
+  }
+}
+
+.popup-price__list {
+  @include clear-list();
+
+  margin-bottom: 20px;
+}
+
+.popup-price__item {
+  &:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}
+
+.popup-price__span {
+  font-weight: 700;
+}
+
+.popup-price__push-wrapper {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+
+  min-height: 40px;
+}
+
+.popup-price__input-push {
+  display: none;
+
+  &:checked + .popup-price__label-push::after{
+    content: "";
+
+    position: absolute;
+    top: 50%; left: 7px;
+
+    width: 25px;
+    height: 19px;
+
+    background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+
+    transform: translateY(-50%);
+  }
+}
+
+.popup-price__label-push {
+  padding-left: 15px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 50%; left: 0;
+
+    width: 40px;
+    height: 40px;
+
+    font-size: 20px;
+    line-height: 27px;
+
+    background-color: #ffffff;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: translateY(-50%);
+  }
+}
+
+.popup-price__link-wrapper {
+  margin-bottom: 25px;
+}
+
+.popup-price__link-inner {
+  display: flex;
+}
+
+.popup-price__label {
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 27px;
+
+  &--link {
+    display: block;
+  }
+}
+
+.popup-price__input {
+  width: 100%;
+  margin-right: 15px;
+}
+
+.popup-price__button-link {
+  width: 276px;
+}
+
+.popup-price__radio-info {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.popup-price__price-wrapper {
+  margin-bottom: 25px;
+}
+
+.popup-price__price-radio {
+  display: none;
+
+  &:checked + .popup-price__price-label {
+    background-color: $background-color-main;
+  }
+}
+
+.popup-price__price-label {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+
+  background-color: #777777;
+
+  color: #ffffff;
+
+  &:hover {
+    background-color: $background-color-main;
+  }
+}
+
+.popup-price__button {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.popup-price__container {
+  padding-right: 40px;
+  padding-left: 40px;
+
+  &--push {
+    margin-left: 40px;
+  }
+}
+
+.popup-price__button-close {
+  position: absolute;
+  top: 40px; right: 40px;
+}
+
