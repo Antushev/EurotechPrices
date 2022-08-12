@@ -1,6 +1,6 @@
 .popup-price {
   position: absolute;
-  top: 50px; left: 50%;
+  top: 300px; left: 50%;
 
   padding-top: 40px;
 
@@ -162,5 +162,19 @@
 .popup-price__button-close {
   position: absolute;
   top: 40px; right: 40px;
+}
+
+.popup-price__find-price {
+  margin-bottom: 15px;
+}
+
+.popup-price__info {
+  padding: 20px;
+
+  color: #ffffff;
+
+  background-color: fade-out(#1D3067, 0.3);
+
+  border-radius: 10px;
 }
 
