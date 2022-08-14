@@ -1,0 +1,13 @@
+.service-buttons {
+  @include clear-list();
+
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.service-buttons__item {
+  &:not(:last-child) {
+    margin-right: 25px;
+  }
+}

@@ -1,0 +1,21 @@
+.periods-list {
+  @include clear-list();
+
+  display: flex;
+}
+
+.periods-list__item {
+  font-size: 24px;
+
+  color: #be1e2d;
+
+  cursor: pointer;
+
+  &:not(last-child) {
+    margin-right: 15px;
+  }
+
+  &--active {
+    text-decoration: underline;
+  }
+}

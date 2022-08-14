@@ -1,0 +1,33 @@
+.stats-product__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.stats-product__header-1 {
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.stats-product__filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.stats-product__periods {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.stats-product__graph {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.stats-product__graph-block {
+  margin-right: 20px;
+}
