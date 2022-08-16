@@ -1,5 +1,28 @@
 .firms-list {
   @include clear-list();
+
+  &--filter-company {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+}
+
+.firms-list--filter-company .firms-list__item {
+  width: auto;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &:hover {
+    background-color: $background-color-main;
+  }
 }
 
 .firms-list__item {

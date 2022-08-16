@@ -1,3 +1,7 @@
+.table-price__table-wrapper {
+  position: relative;
+}
+
 .table-price__search-form {
   margin-right: 15px;
 }
@@ -37,10 +41,32 @@
   cursor: pointer;
 }
 
+.table-price__filter {
+  margin-right: 10px;
+}
+
 .table-price__button {
 
   &:not(:last-child) {
-    margin-left: auto;
     margin-right: 15px;
   }
+
+  &--add-company {
+    margin-left: auto;
+  }
+}
+
+.table-price__filter-header {
+  position: absolute;
+  top: 2px; right: -79px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+
+  background-color: $background-color-main;
+
+  cursor: pointer;
 }

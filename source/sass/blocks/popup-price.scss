@@ -1,6 +1,6 @@
 .popup-price {
   position: absolute;
-  top: 300px; left: 50%;
+  top: 150px; left: 50%;
 
   padding-top: 40px;
 
@@ -11,10 +11,6 @@
 
   transform: translateX(-50%);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-
-  &--hidden {
-    display: none;
-  }
 }
 
 .popup-price__list {
