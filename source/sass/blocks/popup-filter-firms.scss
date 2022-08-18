@@ -24,9 +24,13 @@
   top: 40px; right: 25px;
 }
 
-.popup-filter-firms__label {
+.popup-filter-firms__header {
+  margin-bottom: 10px;
+}
+
+.popup-filter-firms__text {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 
   font-size: 20px;
   line-height: 27px;
@@ -41,5 +45,4 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 
