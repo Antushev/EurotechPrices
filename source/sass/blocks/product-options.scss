@@ -33,6 +33,10 @@
     fill: #be1e2d;
     fill-opacity: 1;
   }
+
+  &:hover .product-options__span {
+    color: #be1e2d;
+  }
 }
 
 .product-options__icon-wrapper {
@@ -48,4 +52,8 @@
 
 .product-options__span {
   font-size: 16px;
+
+  color: #000000;
+
+  transition: all 0.5s ease 0s;
 }
