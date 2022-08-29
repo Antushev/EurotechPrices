@@ -62,3 +62,34 @@
 .table__td-icon {
   margin-right: 10px;
 }
+
+.table__input-edit {
+  display: flex;
+  align-items: center;
+}
+
+.table__input-name {
+  margin-right: 10px;
+}
+
+.table__button-wrapper {
+  display: block;
+  min-width: 30px;
+  min-height: 30px;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  &:hover .table__input-button {
+    fill: #be1e2d;
+  }
+}
+
+.table__input-button {
+  transition: all 0.5s ease 0s;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.toggle-table {
+  @include clear-list();
+
+  display: flex;
+}
+
+.toggle-table__item {
+  color: #be1e2d;
+
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &--active {
+    text-decoration: underline;
+  }
+}
